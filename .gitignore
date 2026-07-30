@@ -1,0 +1,30 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Vercel
+.vercel
